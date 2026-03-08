@@ -4,9 +4,8 @@ The first step in the navigation process is to find the location of the server t
 For example, let's say I'm trying to reach the server at 'www.google.com', the hostname in this case will
 be google.com. While this is human-readable, servers can really make little of it, as they are not primarily
 identified by
-such labels, and those labels are used because it'd be tricky for me to remember the correct IP address of
-`www.google.com` at least for the first few times I'm asked, and a different hassle for whoever asked or
-needs to put it down. So instead, the browser performs a DNS lookup. This DNS lookup acts as the translator that takes
+such labels, and those labels are used because it'd be tricky to remember the correct IP address of
+`www.google.com`. So instead, the browser performs a DNS lookup. This DNS lookup acts as the translator that takes
 in the
 human-friendly label, and finds the actual ID of the server, which is it's IP address.
 
