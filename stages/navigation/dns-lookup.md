@@ -12,7 +12,7 @@ human-friendly label, and finds the actual ID of the server, which is it's IP ad
 You might be wondering if the browser performs this action every time a webpage is visited. The response, as is common
 in software engineering, is that it varies.
 
-The browser executes this process for each distinct hostname it encounters, subsequently storing the outcome in a cache
+The browser executes this process for each distinct hostname it encounters, then stores the outcome in a cache
 to speed up subsequent requests to the same hostname.
 
 To summarize, upon encountering a hostname, the browser first consults its local cache, essentially querying itself: "
