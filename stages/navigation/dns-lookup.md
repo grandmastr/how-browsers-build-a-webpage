@@ -15,7 +15,7 @@ in software engineering, is that it varies.
 The browser executes this process for each distinct hostname it encounters, then stores the outcome in a cache
 to speed up subsequent requests to the same hostname.
 
-To summarize, upon encountering a hostname, the browser first consults its local cache, essentially querying itself: "
+So upon encountering a hostname, the browser first consults its local cache, essentially querying itself: "
 Have I visited this hostname previously?" If the information is not found, it will likely contact your ISP, which can
 function as a recursive resolver. This resolver may then communicate with the root server, followed by the Top Level
 Domain (TLD) server. The TLD server, in turn, might contact the authoritative name server which will then provide the IP
