@@ -2,7 +2,7 @@
 
 The first step in the navigation process is to find the location of the server the user is trying to reach.
 For example, let's say I'm trying to reach the server at 'www.google.com', the hostname in this case will
-be israelakintun.de. While this is human-readable, servers can really make little of it, as they are not primarily
+be google.com. While this is human-readable, servers can really make little of it, as they are not primarily
 identified by
 such labels, and those labels are used because it'd be tricky for me to remember the correct IP address of
 `www.google.com` at least for the first few times I'm asked, and a different hassle for whoever asked or
