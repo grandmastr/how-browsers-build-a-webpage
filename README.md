@@ -13,7 +13,7 @@ The outline below walks through the steps involved in building a webpage and how
     - [DNS Lookup](./stages/navigation/dns-lookup.md)
     - [TCP Three-Way Handshake](./stages/navigation/tcp-handshake.md)
     - [TLS Negotiation](./stages/navigation/tls-negotiation.md)
-    - [HTTP Request](./stages/navigation/http-request.md)
+    - HTTP Request
 2. Response
 3. Parsing
 4. Render

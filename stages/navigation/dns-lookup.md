@@ -18,9 +18,9 @@ to speed up subsequent requests to the same hostname.
 So upon encountering a hostname, the browser first consults its local cache, essentially querying itself: "
 Have I visited this hostname previously?" If the information is not found, it will likely contact your ISP, which can
 function as a recursive resolver. This resolver may then communicate with the root server, followed by the Top Level
-Domain (TLD) server. The TLD server, in turn, might contact the authoritative name server which will then provide the IP
+Domain (TLD) server. The TLD server, in turn, might contact the authoritative nameserver which will then provide the IP
 address of the queried server. This tiered structure of
 servers is conclusive, with each level providing progressively more detail regarding the location of the server's IP
-address.
+address. 
 
 Once the browser has the IP address of the server, the next step is the [TCP three-way handshake](./tcp-handshake.md).

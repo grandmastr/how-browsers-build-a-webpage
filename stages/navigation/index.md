@@ -12,4 +12,4 @@ The navigation process involves the following steps:
 - [DNS Lookup](./dns-lookup.md)
 - [TCP Handshake](./tcp-handshake.md)
 - [TLS Negotiation](./tls-negotiation.md)
-- [HTTP Request](./http-request.md)
+- HTTP Request
